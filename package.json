@@ -1,6 +1,10 @@
 {
   "name": "right-for-life_back",
   "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "10.15.3"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
