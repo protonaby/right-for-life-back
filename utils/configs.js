@@ -8,7 +8,7 @@ const dbOptions = {
 module.exports.dbName = dbName;
 module.exports.dbURL = `mongodb://localhost:27017/${dbName}`;
 module.exports.animalsCollectionName = 'animals';
-module.exports.serverPort = 4000;
+module.exports.serverPort = process.env.APP_PORT;
 module.exports.frontURL = 'http://localhost:5000';
 module.exports.dbOptions = dbOptions;
 module.exports.connectionURI = `mongodb+srv://${process.argv[2]}:${process.argv[3]}@animalsforlife-goij5.mongodb.net/${dbName}?retryWrites=true&w=majority`;
